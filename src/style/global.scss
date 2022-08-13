@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
+  overflow-x: hidden;
 }
 .landing__img {
   width: 100%;
@@ -212,6 +213,58 @@ body {
 }
 .project__icon__card img {
   height: 80px;
+}
+.j7__group__main__container {
+  position: relative;
+}
+.j7__group__main__container__img {
+  width: 100%;
+  margin-top: 1em;
+}
+.j7__group__main__container__img img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+.j7__group__main__container__overlay {
+  width: 100%;
+  padding: 0em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 12%;
+}
+.j7__group__main__container__overlay__text__wraper {
+  padding: 0em 2em;
+}
+.j7__group__main__container__overlay__text__heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.j7__group__main__container__overlay__text__sub__heading {
+  font-size: 18px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.j7__group__main__container__overlay__inner__view {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.j7__group__main__container__overlay__inner__view__img {
+  margin: 9px 16px;
+}
+.j7__group__main__container__overlay__inner__view__img img {
+  height: 350px;
+}
+.j7__group__main__container__overlay__inner__view__img:hover {
+  transition: 0.5s ease-in;
 }
 @media (max-width: 900px) {
   .landing__header__card__signal {

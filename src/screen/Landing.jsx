@@ -6,6 +6,10 @@ import flash from "../assets/flash.png";
 import js from "../assets/js.png";
 import flag from "../assets/flag.png";
 import globaljs from "../assets/globaljs.png";
+import j7group from "../assets/j7group.png";
+import j7img1 from "../assets/j7img1.png";
+import j7img2 from "../assets/j7img2.png";
+import j7img3 from "../assets/j7img3.png";
 
 function Landing() {
   return (
@@ -142,6 +146,49 @@ function Landing() {
           </div>
           <div className="project__icon__card">
             <img src={logo} alt="J7" />
+          </div>
+        </div>
+      </div>
+      <div className="j7__group__main__container">
+        <div className="j7__group__main__container__img">
+          <img src={j7group} alt="j7group" />
+        </div>
+        <div className="j7__group__main__container__overlay">
+          <div className="j7__group__main__container__overlay__text__wraper">
+            <div className="j7__group__main__container__overlay__text__heading">
+              j7 Group
+            </div>
+            <div className="j7__group__main__container__overlay__text__sub__heading">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </div>
+          </div>
+          <div className="j7__group__main__container__overlay__inner__view">
+            <div className="j7__group__main__container__overlay__inner__view__img">
+              <img src={j7img1} alt="view" />
+            </div>
+            <div className="j7__group__main__container__overlay__inner__view__img">
+              <img src={j7img2} alt="view" />
+            </div>
+            <div className="j7__group__main__container__overlay__inner__view__img">
+              <img src={j7img3} alt="view" />
+            </div>
+            <div className="j7__group__main__container__overlay__inner__view__img">
+              <img src={j7img1} alt="view" />
+            </div>
           </div>
         </div>
       </div>
