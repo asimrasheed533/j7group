@@ -51,7 +51,7 @@ body {
   position: absolute;
   top: 40%;
   padding-left: 4em;
-  font-size: 1.5em;
+  font-size: 30px;
   font-weight: 500;
   color: #000;
   max-width: 1440px;
@@ -59,18 +59,18 @@ body {
 }
 .landing__header__cards__container {
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   // background-color: aquamarine;
 }
 .landing__header__card__wraper {
   width: 100%;
   padding: 1em;
-  border-bottom: 1px solid #e0e0e0;
   position: relative;
   margin-top: -3em;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 .landing__header__card__signal {
   // border: 1px solid rebeccapurple;
@@ -95,6 +95,9 @@ body {
   font-size: 50px;
   font-weight: 500;
 }
+.landing__header__card__right__text {
+  margin-left: 9px;
+}
 .landing__header__card__signal_happy {
   width: 20%;
   display: flex;
@@ -117,4 +120,72 @@ body {
 }
 .landing__header__card__text_hapy_subheading {
   font-size: 40px;
+}
+.flageship__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 3em;
+}
+.flageship__container__left {
+  width: 60%;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.flageship__container__left__img img {
+  height: 200px;
+  margin-left: -4em;
+}
+.flageship__container__right {
+  width: 40%;
+}
+.flageship__container__right__img img {
+  height: 300px;
+  padding: 0em 2em;
+}
+.flageship__container__left__text {
+  text-align: bottom;
+  padding: 0em 1em;
+  padding-top: 5em;
+  margin: 5px 0px;
+}
+.flageship__container__left__text__heading {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000;
+}
+.flageship__container__left__text__heading span {
+  color: #494949;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.flageship__container__left__text__sub__heading {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+@media (max-width: 900px) {
+  .landing__header__card__signal {
+    width: 40%;
+    margin: 8px 0;
+  }
+  .landing__header__card__wraper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .landing__header__card__signal_happy {
+    width: 40%;
+    margin: 8px 0px;
+  }
+  .flageship__container__right__img {
+    display: none;
+  }
+  .flageship__container__left {
+    width: 100%;
+  }
+  .flageship__container {
+    flex-direction: column;
+  }
 }

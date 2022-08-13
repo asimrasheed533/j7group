@@ -2,6 +2,8 @@ import React from "react";
 import main from "../assets/main.png";
 import logo from "../assets/logo.png";
 import layer from "../assets/layer.png";
+import flash from "../assets/flash.png";
+import js from "../assets/js.png";
 
 function Landing() {
   return (
@@ -90,6 +92,32 @@ function Landing() {
             <div className="landing__header__card__text_hapy_subheading">
               100+
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="flageship__container">
+        <div className="flageship__container__left">
+          <div className="flageship__container__left__img">
+            <img src={js} alt="J7" />
+          </div>
+          <div className="flageship__container__left__text">
+            <div className="flageship__container__left__text__heading">
+              FLAGSHIP <span>PROJECT </span>
+            </div>
+            <div className="flageship__container__left__text__sub__heading">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic tcently with desktop publishing software like Aldus
+              PageMaker including versions of Lorem Ipsum.
+            </div>
+          </div>
+        </div>
+        <div className="flageship__container__right">
+          <div className="flageship__container__right__img">
+            <img src={flash} alt="J7" />
           </div>
         </div>
       </div>
