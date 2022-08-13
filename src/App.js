@@ -1,13 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./style/global.scss";
 import Landing from "./screen/Landing";
+import "./style/global.scss";
 
 function App() {
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Landing />} />
-    </Routes>
-  </BrowserRouter>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

@@ -1,3 +1,120 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.landing__img {
+  width: 100%;
+  height: 640px;
+}
+.landing__main__header {
+  position: relative;
+}
+.landing__img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+// .landing__nav__bar__container {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
+.landing__nav__bar__wraper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em;
+  background-color: white;
+}
+.link__wraper {
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  margin: 3px 7px;
+}
+.link__wraper:hover {
+  color: #ffc107;
+  border-bottom: 1px solid #ffc107;
+  transition: 0.2s ease-in-out;
+}
+.landing__main__header__text {
+  position: absolute;
+  top: 40%;
+  padding-left: 4em;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #000;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.landing__header__cards__container {
+  width: 100%;
+  // background-color: aquamarine;
+}
+.landing__header__card__wraper {
+  width: 100%;
+  padding: 1em;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  margin-top: -3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.landing__header__card__signal {
+  // border: 1px solid rebeccapurple;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 0em 1em;
+  border-radius: 8px;
+  background-color: #e9e8e8;
+  cursor: pointer;
+  height: 150px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.landing__header__card__signal:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+.landing__header__card__left__text {
+  font-size: 50px;
+  font-weight: 500;
+}
+.landing__header__card__signal_happy {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2em;
+  margin: 0em 1em;
+  border-radius: 8px;
+  background-color: #0c0c0c;
+  color: white;
+  cursor: pointer;
+  height: 150px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.landing__header__card__text_hapy_heading {
+  font-size: 20px;
+  font-weight: 400;
+}
+.landing__header__card__text_hapy_subheading {
+  font-size: 40px;
+}
