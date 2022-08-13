@@ -122,6 +122,19 @@ body {
   font-size: 40px;
 }
 .flageship__container {
+  position: relative;
+}
+.flageship__container__overlay__img {
+  width: 100%;
+}
+.flageship__container__overlay__img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.flahedship__main__over__wraper {
+  position: absolute;
+  top: 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -131,8 +144,10 @@ body {
 .flageship__container__left {
   width: 60%;
   display: flex;
+
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 1em;
 }
 .flageship__container__left__img img {
   height: 200px;
@@ -144,6 +159,7 @@ body {
 .flageship__container__right__img img {
   height: 300px;
   padding: 0em 2em;
+  mix-blend-mode: luminosity;
 }
 .flageship__container__left__text {
   text-align: bottom;
@@ -162,7 +178,7 @@ body {
   margin-bottom: 8px;
 }
 .flageship__container__left__text__sub__heading {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: #000;
 }
