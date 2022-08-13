@@ -182,6 +182,37 @@ body {
   font-weight: 400;
   color: #000;
 }
+.project__container__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project__container__text__heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 16px 0px;
+}
+.project__container__icon__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+.project__icon__card {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e9e8e8;
+  margin: 0 1em;
+}
+.project__icon__card:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #e0dbdb;
+}
+.project__icon__card img {
+  height: 80px;
+}
 @media (max-width: 900px) {
   .landing__header__card__signal {
     width: 40%;

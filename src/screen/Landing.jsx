@@ -5,6 +5,7 @@ import layer from "../assets/layer.png";
 import flash from "../assets/flash.png";
 import js from "../assets/js.png";
 import flag from "../assets/flag.png";
+import globaljs from "../assets/globaljs.png";
 
 function Landing() {
   return (
@@ -121,6 +122,26 @@ function Landing() {
             <div className="flageship__container__right__img">
               <img src={flash} alt="J7" />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="project__container__wraper">
+        <div className="project__container__text__heading">Our Project</div>
+        <div className="project__container__icon__container">
+          <div className="project__icon__card">
+            <img src={logo} alt="J7" />
+          </div>
+          <div className="project__icon__card">
+            <img src={globaljs} alt="J7" />
+          </div>
+          <div className="project__icon__card">
+            <img src={logo} alt="J7" />
+          </div>
+          <div className="project__icon__card">
+            <img src={globaljs} alt="J7" />
+          </div>
+          <div className="project__icon__card">
+            <img src={logo} alt="J7" />
           </div>
         </div>
       </div>
