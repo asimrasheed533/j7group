@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap");
 }
 body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 .landing__img {
   width: 100%;
@@ -19,20 +21,13 @@ body {
   width: 100%;
   object-fit: cover;
 }
-// .landing__nav__bar__container {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-// }
 
 .landing__nav__bar__wraper {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  // width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,7 +137,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0em 1.5em;
+  margin: 0em 3em;
 }
 .flageship__container__left {
   width: 100%;
@@ -160,7 +155,6 @@ body {
 }
 .flageship__container__right__img img {
   height: 300px;
-  padding: 0em 2em;
   mix-blend-mode: luminosity;
 }
 .flageship__container__left__text {
@@ -180,9 +174,11 @@ body {
   margin-bottom: 8px;
 }
 .flageship__container__left__text__sub__heading {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #000;
+  width: 70%;
+  margin-top: 5px;
 }
 .project__container__wraper {
   width: 100%;
@@ -229,7 +225,6 @@ body {
 }
 .j7__group__main__container__overlay {
   width: 100%;
-  padding: 0em 2em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,7 +234,9 @@ body {
   top: 12%;
 }
 .j7__group__main__container__overlay__text__wraper {
-  padding: 2em 0em;
+  padding: 0.5em 2em;
+  width: 80%;
+  text-align: center;
 }
 .j7__group__main__container__overlay__text__heading {
   font-size: 30px;
@@ -247,7 +244,7 @@ body {
   margin-bottom: 6px;
 }
 .j7__group__main__container__overlay__text__sub__heading {
-  font-size: 18px;
+  font-size: 16px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -695,7 +692,7 @@ body {
 }
 @media (max-width: 400px) {
   .vision__container__contant {
-    width: 80%;
+    width: 100%;
     margin: 0px 16px;
     top: 30%;
   }
@@ -704,6 +701,9 @@ body {
   }
   .hotel__card__main__container__img {
     width: 100%;
+  }
+  .j7__group__main__container__overlay__text__wraper {
+    padding: 0px;
   }
 }
 
