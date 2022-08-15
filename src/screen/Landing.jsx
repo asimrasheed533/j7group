@@ -100,11 +100,13 @@ function Landing() {
             </div>
           </div>
           <div className="landing__header__card__signal">
-            <div className="landing__header__card__text_hapy_heading">
-              Happy Customer
-            </div>
-            <div className="landing__header__card__text_hapy_subheading">
-              100+
+            <div className="landing__header__text__card__hpy">
+              <div className="landing__header__card__text_hapy_heading">
+                Happy Customer
+              </div>
+              <div className="landing__header__card__text_hapy_subheading">
+                100+
+              </div>
             </div>
           </div>
         </div>
@@ -124,9 +126,7 @@ function Landing() {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic tcently with desktop publishing software like Aldus
-                PageMaker including versions of Lorem Ipsum.
+                survived not only five
               </div>
             </div>
           </div>
@@ -176,12 +176,7 @@ function Landing() {
               popularised in the 1960s with the release of Letraset sheets
               containing Lorem Ipsum passages, and more recently with desktop
               publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book. It
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum.
             </div>
           </div>
           <div className="j7__group__main__container__overlay__inner__view">
