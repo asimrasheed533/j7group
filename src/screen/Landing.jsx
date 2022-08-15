@@ -14,8 +14,9 @@ import award from "../assets/award.png";
 import awardp from "../assets/awardp.png";
 import booking from "../assets/booking.png";
 import vision from "../assets/vision.png";
-// import teamimg from "../assets/teaming.png";
+import rename from "../assets/rename.png";
 import j7team from "../assets/j7team.png";
+import map from "../assets/map.png";
 import { Abc } from "./Abc";
 
 function Landing() {
@@ -98,7 +99,7 @@ function Landing() {
               </div>
             </div>
           </div>
-          <div className="landing__header__card__signal_happy">
+          <div className="landing__header__card__signal">
             <div className="landing__header__card__text_hapy_heading">
               Happy Customer
             </div>
@@ -221,7 +222,7 @@ function Landing() {
         </div>
       </div>
       <Abc />
-      <Abc />
+      {/* <Abc /> */}
       <div className="booking__container">
         <div className="booking__container__text">
           Booking <span>start from</span>25%{" "}
@@ -257,10 +258,39 @@ function Landing() {
           <div className="j7__team__banner__imgs__wraper">
             <div className="j7__team__banner__img__card">
               <div className="j7__team__banner__img">
-                <img src={logo} alt="logo" />
+                <img src={rename} alt="logo" />
               </div>
-              <div className="j7__team__banner__img__name">ASIM</div>
-              <div className="j7__team__banner__img__sub__name">Chairman</div>
+              <div className="j7__team__text__container">
+                <div className="j7__team__banner__img__name">ASIM</div>
+                <div className="j7__team__banner__img__sub__name">Chairman</div>
+              </div>
+            </div>
+            <div className="j7__team__banner__img__card">
+              <div className="j7__team__banner__img">
+                <img src={rename} alt="logo" />
+              </div>
+              <div className="j7__team__text__container">
+                <div className="j7__team__banner__img__name">ASIM</div>
+                <div className="j7__team__banner__img__sub__name">Chairman</div>
+              </div>
+            </div>
+            <div className="j7__team__banner__img__card">
+              <div className="j7__team__banner__img">
+                <img src={rename} alt="logo" />
+              </div>
+              <div className="j7__team__text__container">
+                <div className="j7__team__banner__img__name">ASIM</div>
+                <div className="j7__team__banner__img__sub__name">Chairman</div>
+              </div>
+            </div>
+            <div className="j7__team__banner__img__card">
+              <div className="j7__team__banner__img">
+                <img src={rename} alt="logo" />
+              </div>
+              <div className="j7__team__text__container">
+                <div className="j7__team__banner__img__name">ASIM</div>
+                <div className="j7__team__banner__img__sub__name">Chairman</div>
+              </div>
             </div>
           </div>
         </div>
@@ -268,7 +298,7 @@ function Landing() {
       <div className="footer__main___container">
         <div className="footer__main___container__left">
           <div className="footer__main___container__left__map">
-            <img src={award} alt="map" />
+            <img src={map} alt="map" />
           </div>
         </div>
         <div className="footer__main___container__right">
@@ -322,10 +352,10 @@ function Landing() {
             <div className="footer__right__contactus__heading">Contact Us</div>
             <div className="footer__right__contactus__phone__and__mail">
               <div className="footer__right__contactus__phone__no">
-                +92-3004575442
+                <span>Name</span> +92-3004575442
               </div>
               <div className="footer__right__contactus__email">
-                asimrasheed442@gmail.com
+                <span>E-mail</span> asimrasheed442@gmail.com
               </div>
               <div className="footer__right__contactus__socail">
                 <div className="footer__right__contactus__socail__heading">
