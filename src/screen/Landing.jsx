@@ -10,6 +10,13 @@ import j7group from "../assets/j7group.png";
 import j7img1 from "../assets/j7img1.png";
 import j7img2 from "../assets/j7img2.png";
 import j7img3 from "../assets/j7img3.png";
+import award from "../assets/award.png";
+import awardp from "../assets/awardp.png";
+import booking from "../assets/booking.png";
+import vision from "../assets/vision.png";
+// import teamimg from "../assets/teaming.png";
+import j7team from "../assets/j7team.png";
+import { Abc } from "./Abc";
 
 function Landing() {
   return (
@@ -188,6 +195,146 @@ function Landing() {
             </div>
             <div className="j7__group__main__container__overlay__inner__view__img">
               <img src={j7img1} alt="view" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="award__section">
+        <div className="award__section__text__wraper">
+          <div className="award__section__text__container__heading">
+            Awarded <span>PROJECT</span>
+          </div>
+          <div className="award__section__text__container__sub__heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic placeat
+            nisi dolorem eligendi nobis fugiat, molestias unde sunt officiis ut
+            illo iure, quod recusandae distinctio dignissimos ab, atque nostrum
+            quibusdam. dolorem eligendi nobis fugiat, molestias unde sunt
+            officiis ut illo iure, quod recusandae distinctio dignissimos ab,
+            atque nostrum quibusdam.
+          </div>
+        </div>
+        <div className="award__section__img__container">
+          <img src={award} alt="award" />
+        </div>
+        <div className="award__section__recive__wraper">
+          <img src={awardp} alt="awardp" />
+        </div>
+      </div>
+      <Abc />
+      <Abc />
+      <div className="booking__container">
+        <div className="booking__container__text">
+          Booking <span>start from</span>25%{" "}
+        </div>
+        <div className="booking__container__img">
+          <img src={booking} alt="Booking" />
+        </div>
+        <div className="booking__container__j7__logo">
+          <img src={js} alt="Booking" />
+        </div>
+      </div>
+      <div className="vision__container">
+        <div className="vision__container__contant__img">
+          <img src={vision} alt="vision" />
+        </div>
+        <div className="vision__container__contant">
+          <div className="vision__container__contant__heading">Our Vision</div>
+          <div className="vision__container__contant__sub__heading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellendus quis recusandae minima officia eligendi veniam fuga,
+            quod perspiciatis quaerat quia.recusandae minima officia eligendi
+            veniam fuga, quod perspiciatis quaerat quia. recusandae minima
+            officia eligendi veniam fuga, quod perspiciatis quaerat quia.
+          </div>
+        </div>
+      </div>
+      <div className="j7team__container">
+        <div className="j7__team__banner">
+          <img src={j7team} alt="j7team" />
+        </div>
+        <div className="j7__team__banner__contant">
+          <div className="j7__team__banner__text__heading">Our Team</div>
+          <div className="j7__team__banner__imgs__wraper">
+            <div className="j7__team__banner__img__card">
+              <div className="j7__team__banner__img">
+                <img src={logo} alt="logo" />
+              </div>
+              <div className="j7__team__banner__img__name">ASIM</div>
+              <div className="j7__team__banner__img__sub__name">Chairman</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer__main___container">
+        <div className="footer__main___container__left">
+          <div className="footer__main___container__left__map">
+            <img src={award} alt="map" />
+          </div>
+        </div>
+        <div className="footer__main___container__right">
+          <div className="footer__container__right__contant">
+            <div className="footer__container__uper__heading">
+              <div className="footer__container__right__contant__heading">
+                Get In Touch
+              </div>
+              <div className="footer__container__right__contant__sub__heading">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the
+              </div>
+            </div>
+            <div className="footer__container__contact__form">
+              <div className="footer__contant__input">
+                <div className="footer__container__contact__form__input">
+                  <input type="text" placeholder="First-Name" />
+                </div>
+                <div className="footer__container__contact__form__input">
+                  <input type="text" placeholder="Last-Name" />
+                </div>
+              </div>
+              <div className="footer__contant__input">
+                <div className="footer__container__contact__form__input">
+                  <input type="text" placeholder="E-mail" />
+                </div>
+                <div className="footer__container__contact__form__input">
+                  <input type="text" placeholder="DOB" />
+                </div>
+              </div>
+              <div className="footer__contant__input">
+                <div className="footer__container__contact__form__input">
+                  <input type="text" placeholder="Phone-No" />
+                </div>
+                <div className="footer__container__contact__form__input">
+                  <input type="text" placeholder="Gender" />
+                </div>
+              </div>
+              <div className="footer__container__contact__form__input">
+                <input type="text" placeholder="Message" />
+              </div>
+              <button
+                title="click here"
+                className="footer__contant__submit__btn"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+          <div className="footer__container__right__contactus__wraper">
+            <div className="footer__right__contactus__heading">Contact Us</div>
+            <div className="footer__right__contactus__phone__and__mail">
+              <div className="footer__right__contactus__phone__no">
+                +92-3004575442
+              </div>
+              <div className="footer__right__contactus__email">
+                asimrasheed442@gmail.com
+              </div>
+              <div className="footer__right__contactus__socail">
+                <div className="footer__right__contactus__socail__heading">
+                  Social Links
+                </div>
+                <div className="social__links__wraper">facebook</div>
+                <div className="social__links__wraper">Instagram</div>
+                <div className="social__links__wraper">Twitter</div>
+              </div>
             </div>
           </div>
         </div>
