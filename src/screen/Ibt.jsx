@@ -45,49 +45,48 @@ function Ibt() {
           </div>
         </div>
       </div>
-      <div className="project__main__div">
-        <div className="project__main__container__style"></div>
-        <div className="project__main__container__style__bg">
-          {/* <div className="inner__text__div">
-            <div className="project__main__container__heading__style"></div>
-            <div className="project__main__container__heading">
-              Project Components
+      {/* <<third__section------ */}
+      <div className="components_main_container" id="components">
+        <div className="components_maincontainerbg_dark">
+          <div className="components_maincontainerbg_boarder"></div>
+          <div className="max__class">
+            <div className="intro_containercontent_heading">
+              PROJECT COMPONENTS
+              <div className="intro_containercontentheading_underline"></div>
             </div>
-          </div> */}
-        </div>
-
-        <div className="project__main__container__wraper">
-          <div className="project__cards__wraper">
-            <div className="Project__Components__card__container">
-              <div className="Project__Components__card__img">
-                <img src={projectcard} alt="" />
+            <div className="components_cards_container">
+              <div className="card__container">
+                <img className="card__image" src={projectcard} alt="" />
+                <div className="card_content_container">
+                  <div className="card__text">One Five Star Hotel</div>
+                  <div className="card1_containercontentheading_underline"></div>
+                </div>
               </div>
-              <div className="Project__Components__card__contant">
-                One dedicated tower for most Luxurious Apartments
+              <div className="card__container">
+                <div className="img__container"></div>
+                <img className="card__image" src={projectcard} alt="" />
+                <div className="card_content_container">
+                  <div className="card__text">Industrial Mall</div>
+                  <div className="card1_containercontentheading_underline"></div>
+                </div>
               </div>
-            </div>
-            <div className="Project__Components__card__container">
-              <div className="Project__Components__card__img">
-                <img src={projectcard} alt="" />
+              <div className="card__container">
+                <img className="card__image" src={projectcard} alt="" />
+                <div className="card_content_container">
+                  <div className="card__text">
+                    One dedicated tower for most Luxurious Apartments
+                  </div>
+                  <div className="card1_containercontentheading_underline"></div>
+                </div>
               </div>
-              <div className="Project__Components__card__contant">
-                One dedicated tower for most Luxurious Apartments
-              </div>
-            </div>
-            <div className="Project__Components__card__container">
-              <div className="Project__Components__card__img">
-                <img src={projectcard} alt="" />
-              </div>
-              <div className="Project__Components__card__contant">
-                One dedicated tower for most Luxurious Apartments
-              </div>
-            </div>
-            <div className="Project__Components__card__container">
-              <div className="Project__Components__card__img">
-                <img src={projectcard} alt="" />
-              </div>
-              <div className="Project__Components__card__contant">
-                One dedicated tower for most Luxurious Apartments
+              <div className="card__container">
+                <img className="card__image" src={projectcard} alt="" />
+                <div className="card_content_container">
+                  <div className="card__text">
+                    Dedicated Corporate And IT Centre
+                  </div>
+                  <div className="card1_containercontentheading_underline"></div>
+                </div>
               </div>
             </div>
           </div>

@@ -90,80 +90,34 @@ body {
   height: 350px;
   width: 100%;
 }
-.project__main__div {
+// .......third -----section
+.components_maincontainerbg_dark {
+  background-color: rgb(27, 81, 129);
+  height: 170px;
   width: 100%;
-  position: relative;
 }
-.project__main__container__style {
-  content: "";
-  position: relative;
-  height: 178px;
-  top: 2em;
-  border: 1px solid #bbb04f;
-  border-top-right-radius: 6em;
-}
-.project__main__container__style__bg {
-  content: "";
-  position: relative;
-  height: 178px;
-  top: -8em;
-  background-color: #ffeb38;
-  border-top-right-radius: 6em;
-  z-index: -1;
-}
-.project__main__container__wraper {
-  width: 100%;
+.max__class {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  position: absolute;
-  top: 32%;
-  left: 0;
-  right: 0;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-.project__main__container__heading__style {
-  content: "";
-  position: relative;
-  height: 10px;
-  width: 50px;
-  background-color: aliceblue;
-}
-.inner__text__div {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   width: 100%;
 }
-.project__main__container__heading {
+.card__container img {
+  height: 70px;
+}
+
+.components_cards_container {
   width: 100%;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 1em;
-  display: flex;
-  justify-content: center;
-}
-.Project__Components__card__container {
-  width: 30%;
-}
-.project__cards__wraper {
-  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1440px;
-  margin: 0 auto;
 }
-.Project__Components__card__contant {
-  font-size: 14px;
+.card__container {
+  width: 20%;
 }
-.Project__Components__card__container {
-  margin: 0em 1em;
-}
-.Project__Components__card__img img {
-  height: 100px;
-}
+
+// .........
 .specs__section__wraper {
   width: 100%;
   display: flex;
