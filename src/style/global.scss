@@ -137,7 +137,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0em 3em;
 }
 .flageship__container__left {
   width: 100%;
@@ -159,8 +158,8 @@ body {
 }
 .flageship__container__left__text {
   text-align: bottom;
-  padding: 0em 1em;
-  // padding-top: 5em;
+  padding-left: 5em;
+
   margin: 5px 0px;
 }
 .flageship__container__left__text__heading {
@@ -323,10 +322,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   max-width: 1440px;
   margin: 0 auto;
-  margin: 0em 1em;
 }
 .hotel__card__main__container__img {
   width: 50%;
@@ -406,7 +403,7 @@ body {
 }
 .vision__container__contant__heading {
   color: white;
-  font-size: 34px;
+  font-size: 24px;
   font-weight: bold;
 }
 .vision__container__contant__sub__heading {
@@ -693,7 +690,7 @@ body {
 @media (max-width: 400px) {
   .vision__container__contant {
     width: 100%;
-    margin: 0px 16px;
+    padding: 5px 12px;
     top: 30%;
   }
   .flageship__container__left__text {
@@ -704,6 +701,9 @@ body {
   }
   .j7__group__main__container__overlay__text__wraper {
     padding: 0px;
+  }
+  .vision__container__contant__img img {
+    height: 350px;
   }
 }
 
